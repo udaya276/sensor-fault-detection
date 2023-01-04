@@ -7,6 +7,7 @@ from sensor.components.data_ingestion import DataIngestionConfig
 from sensor.components.data_ingestion import DataIngestion
 from sensor.components.data_validation import DataValidation
 from sensor.components.data_transformation import DataTransformation
+from sensor.cloud_storage.s3_syncer import S3Sync
 
 class TrainPipeline:
     is_pipeline_running = False
